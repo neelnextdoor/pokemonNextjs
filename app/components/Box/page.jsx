@@ -2,7 +2,6 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 
 const Box = (props) => {
-  console.log(props);
   const [pokemonImage, setPokemonImage] = useState([])
     
   useEffect(() => {
